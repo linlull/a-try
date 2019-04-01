@@ -20,4 +20,3 @@ func find(a, b string) (position int, err error){
 	}
 	return -1, e
 }
-//第一次用err代替e,能不能找到都是返回nil???
